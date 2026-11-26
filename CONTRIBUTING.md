@@ -6,12 +6,12 @@
 
 | 저장소 | 영역 접두어 | 담는 것 |
 | --- | --- | --- |
-| `common` | — | 기능 단위 큰 이슈(`[Feature]`, `[Chore]`), 공통 문서·템플릿 |
+| `.github` | — | 기능 단위 큰 이슈(`[Feature]`, `[Chore]`), 공통 문서·템플릿 |
 | `frontend` | `FE` / `fe` | 웹 화면 |
 | `backend` | `BE` / `be` | Spring API |
 | `infra` | `INF` / `inf` | 서버·도메인·S3·KMS·SES·모니터링·배포 |
 
-큰 이슈는 `common`에, 실제 작업은 각 저장소의 서브 이슈로 나눠요. 큰 이슈의 책임자가 서브 이슈까지 맡아요.
+큰 이슈는 `.github`에, 실제 작업은 각 저장소의 서브 이슈로 나눠요. 큰 이슈의 책임자가 서브 이슈까지 맡아요.
 
 ## 1. 기본 흐름
 
@@ -78,7 +78,7 @@ chore(infra) : Caddy HTTPS 설정 추가
 - `<영역>`: `FE` `BE` `INF`
 - `<Type>`은 첫 글자만 대문자: `Feat` `Fix` `Refactor` `Test` `Docs` `Chore` `Hotfix`
 - 제목 뒤에 콜론(:)을 붙이지 않아요. 커밋 메시지와 다른 점이에요.
-- `common`의 큰 이슈는 `[Feature] <사용자가 하는 동작> (<기능 ID>)` 형식이에요. 예: `[Feature] 닉네임으로 시작하기 (A1)`
+- `.github`의 큰 이슈는 `[Feature] <사용자가 하는 동작> (<기능 ID>)` 형식이에요. 예: `[Feature] 닉네임으로 시작하기 (A1)`
 
 ```
 [BE Feat] 사용자 생성·세션 쿠키 API 만들기
