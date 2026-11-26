@@ -44,5 +44,3 @@
 | [.github/pull_request_template.md](./.github/pull_request_template.md) | PR 템플릿 |
 
 규칙을 바꾸고 싶으면 이 레포에 PR을 올려요.
-# .github
-공통 레포 
